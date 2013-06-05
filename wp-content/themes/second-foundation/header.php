@@ -40,7 +40,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
-	<div class="splash">
+
 	<header id="masthead" class="site-header row" role="banner">
 		<div class="row" id="header image">
 			<div class="large-12 columns centered">
@@ -50,7 +50,7 @@
 		<?php 
 		if ( get_theme_mod( '_sf_theme_options_menu_name' ) == '' ) { ?>
 		<hgroup>
-			<div class="aligncenter"> <a href="index.php" title="Rockin Guitar Lessons"><img src="http://rockinguitarlessons.dev/wp-content/uploads/2013/06/logo.png" alt="logo" /></a> </div>
+			<div class="aligncenter"> <a href="http://rockinguitarlessons.dev" title="Rockin Guitar Lessons"><img src="http://rockinguitarlessons.dev/wp-content/uploads/2013/06/logo.png" alt="logo" /></a> </div>
 		</hgroup>
 		<?php } ?>
 		
@@ -125,7 +125,7 @@
 						
 		
 	</header><!-- #masthead -->
-	</div>
+	
 	
 
 	<div id="main" class="site-main">

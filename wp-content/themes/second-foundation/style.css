@@ -518,7 +518,7 @@ object {
 	margin-bottom: 0;
 }
 .top-bar-section ul {
-	background: #696969;
+	background: #111111;
 }
 
 .top-bar .name h3 {
@@ -535,7 +535,7 @@ object {
 }
 		
 .top-bar.expanded {
-	background: #696969;
+	background: #111111;
 }
 
 .admin-bar .sticky-topbar.fixed {
@@ -547,13 +547,3 @@ padding-left: -15px;
 }
 
 ul.title-area {margin-left:0px;}
-
-.splash {
-	background: url("http://rockinguitarlessons.dev/wp-content/themes/second-foundation/images/home-wrap-1920.png") center top no-repeat;
-	width: 100%;
-	height: auto;
-	position: relative;
-	float: none;
-	display: block;
-	
-}

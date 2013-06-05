@@ -14,7 +14,7 @@
 get_header(); ?>
 <!-- content -->
 	<div id="primary" class="content-area row">
-		<div id="content" class="site-content large-9 columns" role="main">
+		<div id="content" class="site-content large-9 columns flex-video widescreen" role="main">
 		<?php _sf_home_slider(); ?>
 		<?php if ( have_posts() ) : ?>
 			<?php /* Start the Loop */ ?>
